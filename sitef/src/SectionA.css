@@ -1,0 +1,20 @@
+/* SectionA.css */
+.section-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .contador-container {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+  }
+  
+  .botao {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
