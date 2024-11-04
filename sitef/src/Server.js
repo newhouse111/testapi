@@ -7,7 +7,7 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: "http://localhost:5173", // Porta padrão do Vite
+    origin: "https://testapi-sns1.onrender.com", // Porta padrão do Vite
     methods: ["GET", "POST"],
   },
 });

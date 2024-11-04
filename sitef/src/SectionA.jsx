@@ -4,7 +4,7 @@ import { io } from "socket.io-client";
 import "./SectionA.css";
 
 // Conecta ao servidor Socket.IO
-const socket = io("http://localhost:3001");
+const socket = io("https://testapi-sns1.onrender.com");
 
 function SectionA() {
   const [contador1, setContador1] = useState(0);
